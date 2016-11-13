@@ -1,23 +1,36 @@
 SET UP INSTRUCTIONS
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
-1. Download Anaconda
+1. Download Anaconda 
 
- From https://www.continuum.io/downloads. Choose python 2.7 .
+ Full version -> https://www.continuum.io/downloads
+ Mini version -> http://conda.pydata.org/miniconda.html
 
- If during installation asks you if you want to add it to your system path, click yes.
+ The first version takes 3.3GB of space, the second one is much lighter but you'll have to manually install things. In any case, choose **python 2.7** and make sure you say **yes** to *"Add Anaconda to system path"*.
 
-2. Install seaborn
+2. Install libraries
 
- Once the installation of Anaconda is complete, open a command prompt (terminal in mac), type in `pip install seaborn` and hit enter/return. 
-
- If you can't find your terminal/command promt, use your search bar.
+ Once the installation of Anaconda is complete, open a command prompt (terminal in mac), type in `conda install `and the library name. Hit enter/return. 
+ 
+ If you can't find your terminal/command promt, use your search bar. You must have one!
+ 
+ The libraries we'll need are:
+    	
+	* ipython
+	* numpy
+    	* scipy
+    	* sympy
+    	* pandas
+    	* matplotlib
+    	* seaborn (if you choose to install full Anaconda, just conda install this)
 
  If it gives you an error, I'll try to fix it in class.
 
 3. Install a good text editor (not necessary but highly recommended) 
 
- This is a must for anyone doing programming. I like Sublime 3.0 (https://www.sublimetext.com/3), but there are a few. Choose one with text highliting!
+ This is a must for anyone doing programming. I like Sublime 3.0 (https://www.sublimetext.com/3), but there are a few. 
+ 
+ Choose one with text highliting!
 
 4. Set up GitHub
 
