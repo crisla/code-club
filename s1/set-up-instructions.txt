@@ -1,0 +1,60 @@
+SET UP INSTRUCTIONS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+1. Download Anaconda 
+
+ Full version -> https://www.continuum.io/downloads
+ Mini version -> http://conda.pydata.org/miniconda.html
+
+ The first version takes 3.3GB of space, the second one is much lighter but you'll have to manually install things. In any case, choose **python 2.7** and make sure you say **yes** to *"Add Anaconda to system path"*.
+
+2. Install libraries
+
+ Once the installation of Anaconda is complete, open a command prompt (terminal in mac), type in `conda install `and the library name. Hit enter/return. 
+ 
+ If you can't find your terminal/command promt, use your search bar. You must have one!
+ 
+ The libraries we'll need are:
+    	
+	* ipython
+	* numpy
+    	* scipy
+    	* sympy
+    	* pandas
+    	* matplotlib
+    	* seaborn (if you choose to install full Anaconda, just conda install this)
+
+ If it gives you an error, I'll try to fix it in class.
+
+3. Install a good text editor (not necessary but highly recommended) 
+
+ This is a must for anyone doing programming. I like Sublime 3.0 (https://www.sublimetext.com/3), but there are a few. 
+ 
+ Choose one with text highliting!
+
+4. Set up GitHub
+
+ Create an account in https://github.com/
+
+ Download the desktop app from https://desktop.github.com/ 
+
+ Don't pay too much attention to the github tutorials, I'll teach you how to use it in the first session. 
+
+5. Download the materials (optional): 
+
+ Go to the course github (https://github.com/crisla/code-club) and click on "fork". 
+
+ Open your desktop GitHub (the program you just downloaded), log in and click on the plus sign. 
+
+ Choose "clone" => "code-club" (NOT "crisla/code-club"!) => "clone code-club" and choose a place in your comptuer. 
+
+Now you can find that folder in your computer and look at all the content!
+
+To open this (or any other notebook) open the command prompt/terminal and navigate to the folder where the notebook is by typing `cd folder-path`. So for example, if it is in you documents, type `cd Documents/folder`.
+
+Once there, type in `ipython notebook`. Your internet browser should open. Give it some time.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+If you didn't make it, don't worry, I'll help you in class.
+
