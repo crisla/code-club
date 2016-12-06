@@ -12,7 +12,7 @@ def compute_value_function_cached(grid, ufunc, beta, alpha, shocks):
             initial_w, 
             1e-4,  # error_tol
             100,   # max_iter
-            True,  # verbose
+            False,  # verbose
             5,     # print_skip
             grid,
             beta,
