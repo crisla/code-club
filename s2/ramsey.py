@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 import solvers, integrators
 import steady_states
-import pwt
+#import pwt
 
 import os
 import subprocess
@@ -18,7 +18,7 @@ import subprocess
 class Model(solvers.IVP):
     """Base class for a Ramsey (1928) model of optimal savings."""
     # each instance should carry a copy of the PWT data 
-    pwt_data = pwt.load_pwt_data()
+    #pwt_data = pwt.load_pwt_data()
         
     def __init__(self, output, mpk, k_dot, c_dot, utility, jacobian, params):
         """
@@ -1534,7 +1534,7 @@ def calibrate_ces(model, iso3_code, bounds=None, sigma0=1.0, alpha0=None,
     model.iso3_code = iso3_code
         
     # get the PWT data for the iso_code
-    model.data      = model.pwt_data.major_xs(iso3_code)
+    model.data      = None #model.pwt_data.major_xs(iso3_code)
     
     # set bounds
     if bounds == None:
